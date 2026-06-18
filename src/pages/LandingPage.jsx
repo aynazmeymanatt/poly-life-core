@@ -201,32 +201,32 @@ export default function LandingPage() {
     const allCards = [
       {
         icon: <img src={PuzzleIcon} alt="یکپارچگی" className="w-10 h-10" style={{ filter: 'invert(15%) sepia(91%) saturate(1000%) hue-rotate(150deg) brightness(30%)' }} />,
-        title: "یکپارچگی کامل :",
+        title: "یکپارچگی کامل ",
         desc: "همگام‌سازی خودکار بین رژیم، تمرین و خریدها."
       },
       {
         icon: <img src={NetworkIcon} alt="معماری میکروسرویس" className="w-10 h-10" style={{ filter: 'invert(15%) sepia(91%) saturate(1000%) hue-rotate(150deg) brightness(30%)' }} />,
-        title: "معماری میکروسرویس :",
+        title: "معماری میکروسرویس ",
         desc: "سرعت بالا، پایداری و امنیت داده‌های شما در ابعاد بزرگ."
       },
       {
         icon: <img src={RobotIcon} alt="هوش مصنوعی" className="w-10 h-10" style={{ filter: 'invert(15%) sepia(91%) saturate(1000%) hue-rotate(150deg) brightness(30%)' }} />,
-        title: "هوش مصنوعی اختصاصی :",
+        title: "هوش مصنوعی اختصاصی ",
         desc: "تحلیل دقیق فرم بدن و ارائه برنامه شخصی‌سازی شده."
       },
       {
         icon: <img src={HandshakeIcon} alt="جامعه پویا" className="w-10 h-10" style={{ filter: 'invert(15%) sepia(91%) saturate(1000%) hue-rotate(150deg) brightness(30%)' }} />,
-        title: "جامعه‌ای پویا و حامی :",
+        title: "جامعه‌ای پویا و حامی ",
         desc: "جامعه‌ای فعال که کاربر را در مسیر اهداف همراهی و حمایت می‌کند."
       },
       {
         icon: <img src={PuzzleIcon} alt="پشتیبانی" className="w-10 h-10" style={{ filter: 'invert(15%) sepia(91%) saturate(1000%) hue-rotate(150deg) brightness(30%)' }} />,
-        title: "پشتیبانی ۲۴/۷ :",
+        title: "پشتیبانی ۲۴/۷ ",
         desc: "تیم پشتیبانی همیشه در دسترس برای پاسخگویی به سوالات شما."
       },
       {
         icon: <img src={NetworkIcon} alt="امنیت" className="w-10 h-10" style={{ filter: 'invert(15%) sepia(91%) saturate(1000%) hue-rotate(150deg) brightness(30%)' }} />,
-        title: "امنیت بالا :",
+        title: "امنیت بالا ",
         desc: "حفاظت از اطلاعات شخصی و حریم خصوصی کاربران."
       }
     ];
@@ -329,7 +329,7 @@ export default function LandingPage() {
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <div className="text-center md:text-left">
-              <p className="text-[#032F34] text-lg mb-4">پاسخگوی سوالات شما هستیم :)</p>
+              <p className="text-[#032F34] text-lg mb-4">پاسخگوی سوالات شما هستیم :</p>
               <div className="flex flex-col sm:flex-row justify-center md:justify-start gap-4 text-[#032F34] text-base">
                 <span>021-112234</span>
                 <span className="hidden sm:inline">|</span>

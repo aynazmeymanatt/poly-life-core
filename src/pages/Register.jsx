@@ -50,8 +50,12 @@ export default function Register() {
     setTimeout(() => navigate('/login'), 2000);
   };
 
-  return (
-    <div 
+   return (
+    <motion.div 
+      initial={{ x: '-100%' }}
+      animate={{ x: 0 }}
+      exit={{ x: '100%' }}
+      transition={{ type: 'spring', stiffness: 300, damping: 30 }}
       className="min-h-screen relative overflow-hidden"
       style={{
         background: 'linear-gradient(135deg, #1A4F54 0%, #6BA5AA 39%, #C8E8EB 100%)'
@@ -395,6 +399,6 @@ export default function Register() {
         </div>
       </div>
       
-    </div>
+    </motion.div>
   );
 }
